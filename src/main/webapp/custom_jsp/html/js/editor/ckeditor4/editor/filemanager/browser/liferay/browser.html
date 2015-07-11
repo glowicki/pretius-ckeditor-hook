@@ -110,7 +110,7 @@ if ( sServerPath.length > 0 )
 							oConnector.ResourceTypes	= GetUrlParam( 'Types' ).split( ',' );
 
 							if ( !oConnector.ResourceTypes[0] && !oConnector.ResourceType ) {
-								oConnector.ResourceTypes = ['Document', 'Page'];
+								oConnector.ResourceTypes = ['Document', 'Page', 'Image'];
 							}
 
 							if ( oConnector.ResourceTypes[0] && !oConnector.ResourceType ) {
